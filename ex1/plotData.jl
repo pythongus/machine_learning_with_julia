@@ -16,8 +16,8 @@ plotData(x, y) = (
     #       appear as red crosses. Furthermore, you can make the
     #       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
 
-    scatter(x, y);
-    title("First Plot");
+    scatter(x, y, alpha=0.5, marker="x", c="red");
+    title("Population x Profit");
     xlabel("Population of City in 10,000s");
     ylabel("Profit in \$10,000s");
 
